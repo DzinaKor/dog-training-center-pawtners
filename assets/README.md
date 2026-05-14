@@ -1,8 +1,8 @@
-##Dog training Center - Pawtners - ERP training management system
+## Dog training Center - Pawtners - ERP training management system
 
 A dog training center management system where administrator and trainers can manage dogs, training sessions, employees and training programs. 
 
-##Greeting page implementation
+## Greeting page implementation
 
 1. Center showcase
 - Promo banner or carousel with dog training center offers
@@ -29,7 +29,7 @@ A dog training center management system where administrator and trainers can man
 - Login input/button in header for auth users
 - Footer with GitHub of the RSS and team’s names
 
-##Login page implementation
+## Login page implementation
 1. Input validation
 - Login form contains email and password fields
 - Client-side validation:
@@ -44,7 +44,7 @@ A dog training center management system where administrator and trainers can man
 - successful login redirects to Dashboard
 - authenticated users cannot access login page directly
 
-##Dashboard Page implementation 
+## Dashboard Page implementation 
  1. Statistics overview
 - Total amount of clients
 - Total active programs
@@ -66,7 +66,7 @@ A dog training center management system where administrator and trainers can man
 - quick nav to client profiles
 
 
-##Client page implementation
+## Client page implementation
 1. Display clients list
 - Fetch and display client cards from backend API
 - Each client card contains:
@@ -94,7 +94,7 @@ A dog training center management system where administrator and trainers can man
 - if already pinned - visual active status
 -  ability to remove form pinned clients
 
-##Detailed client profile page implementation
+## Detailed client profile page implementation
 1. Display Dog Information
 - Dog photo
 - Dog information:
@@ -138,7 +138,7 @@ A dog training center management system where administrator and trainers can man
     - date;
     - program.
 
-##Employees/Trainers page implementation
+## Employees/Trainers page implementation
 1. Display Employees List
 - Trainer cards with:
     - photo;
@@ -159,7 +159,7 @@ A dog training center management system where administrator and trainers can man
 - Work schedule overview.
 
 
-##Programs/courses page implementation
+## Programs/courses page implementation
 1. Display Programs List
 - display training programs:
     - puppy socialization and manners;
@@ -194,7 +194,7 @@ A dog training center management system where administrator and trainers can man
     - Popularity.
 
 
-##Header & nav
+## Header & nav
 1. Header
 - logo/name linking to dashboard
 - burger menu nav:
@@ -211,13 +211,13 @@ A dog training center management system where administrator and trainers can man
 - lazy-loaded pages.
 - 404 page implementation.
 
-##Footer
+## Footer
 1. Info
 - RSS link
 - creators names and links to their gitHubs
 
 
-##Beyond backend API -additional features
+## Beyond backend API -additional features
 1. Internal notes
 - trainers can leave internal notes for dogs and sessions
 2. Training session history
